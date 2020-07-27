@@ -75,12 +75,20 @@
           console.log(': ')
         } else {
           this.loading = true
-          this.$store.dispatch('login', { ...this.user, isUser: this.isUser })
+          this.$store.dispatch('login', {
+            ...this.user,
+            isUser: this.isUser
+          })
             .then(() => {
               this.$router.push('/')
             })
         }
-      },
-    }
+      }
+    },
+    watch: {
+      '$route' (to) {
+        document.title = to.meta.title || 'Todo'
+      }
+    },
   }
 </script>

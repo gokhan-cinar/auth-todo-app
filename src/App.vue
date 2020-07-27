@@ -18,6 +18,11 @@
   export default {
     components: {
       Header
-    }
+    },
+    watch: {
+      '$route' (to) {
+        document.title = to.meta.title || 'Todo'
+      }
+    },
   }
 </script>
