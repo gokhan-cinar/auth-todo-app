@@ -2,14 +2,14 @@
   <div>
     <div class="language">
       <a-button
-        v-if="languageText === 'en'"
+        v-if="languageText === 'en'  || languageText === ''"
         @click="setLocale('tr')"
         type="success"
         shape="circle">
         Tr
       </a-button>
       <a-button
-        v-if="languageText === 'tr' || languageText === ''"
+        v-if="languageText === 'tr'"
         @click="setLocale('en')"
         type="success"
         shape="circle">

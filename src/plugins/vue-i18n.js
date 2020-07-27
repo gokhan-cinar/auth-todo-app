@@ -6,8 +6,8 @@ import tr from '../locales/tr'
 Vue.use(VueI18n)
 
 export const i18n = new VueI18n({
-  locale: 'tr',
-  fallbackLocale: 'tr',
+  locale: 'en',
+  fallbackLocale: 'en',
   messages: {
     en,
     tr
