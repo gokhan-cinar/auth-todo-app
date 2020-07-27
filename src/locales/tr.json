@@ -1,0 +1,12 @@
+{
+  "todoTitle": "Yapılacaklar",
+  "loginText": "Giriş",
+  "registerText": "Kayıt Ol",
+  "addNewTask": "Yeni görev ekle!",
+  "completeTask": "Tamamlanan Task'lar",
+  "membership": "Üyeliğim var",
+  "notMembership": "Üye değilim",
+  "email": "E-mail",
+  "password": "Şifre",
+  "logout": "Çıkış Yap"
+}

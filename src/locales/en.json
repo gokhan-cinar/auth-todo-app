@@ -1,0 +1,12 @@
+{
+  "todoTitle": "Todo Case",
+  "loginText": "Login",
+  "registerText": "Register",
+  "addNewTask": "Add new task!",
+  "completeTask": "Complete Task",
+  "membership": "I have a membership",
+  "notMembership": "I'm not a member",
+  "email": "E-mail",
+  "password": "Password",
+  "logout": "Log out"
+}
